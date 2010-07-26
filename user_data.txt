@@ -6,7 +6,7 @@ wget http://production.cf.rubygems.org/rubygems/rubygems-1.3.7.tgz
 tar xfz rubygems-1.3.7.tgz
 cd rubygems-1.3.7
 ruby setup.rb
-gem install --no-rdoc --no-ri -q chef
+gem1.8 install --no-rdoc --no-ri -q chef
 rm -rf /srv/chef
 git clone --depth 2 git://github.com/baldowl/ft.git /srv/chef
 cd /srv/chef
